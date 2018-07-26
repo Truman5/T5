@@ -1,7 +1,7 @@
 # T5
 FEWDt
 
-This page is the future home of an application game called "Cee-Lo".  This is a dice game of chance that has had a resurgence in popular culture, with roots from acient times.
+This page is the future home of an application game called "Cee-Lo".  This is a dice game of chance that has had a resurgence in popular culture, with roots from ancient times.
 
 CEE-LO.com
 
