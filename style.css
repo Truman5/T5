@@ -1,0 +1,119 @@
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+	line-height: 1.6;
+	color: #000;
+}
+
+p {
+  font-size: .95em;
+  margin-bottom: 1.5em
+}
+
+h2, h3, a {
+  color: #000
+}
+
+h2, h3 {
+  margin-top: 0;
+}
+
+a {
+	text-decoration: none;
+}
+
+/** header area **/
+
+.name {
+  margin: 0;
+  color: #fff;
+}
+
+.name, .main-nav li {
+  text-align: center;
+  background: #fff;
+  margin-top: 6px;
+  margin-bottom: 6px;
+  border-radius: 8%;
+}
+
+.main-nav a {
+  font-size: .95em;
+  color: #f4a460;
+  text-transform: uppercase;
+}
+
+.main-nav a:hover {
+  color: #000;
+}
+
+.name a, .main-nav a {
+  padding: 10px 15px;
+  display: block;
+}
+
+.container {
+  padding-left: 1em;
+  padding-right: 1em;
+}
+
+.main-header {
+  padding-top: 1.5em;
+  padding-bottom: 1.5em;
+	background: #000;
+  margin-bottom: 30px;
+}
+
+/** footer area **/
+
+.main-footer {
+  text-align: center;
+	padding: 2em 0;
+	background: #ffff00;
+}
+
+.origins-photo {
+  float: left;
+  margin: 10px 4% 10px 0;
+}
+
+/** responsive design **/
+
+@media (min-width: 769px){
+
+  .wrap {
+    min-height: calc(100vh - 89px);
+  }
+
+  .container {
+    width: 70%;
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+
+  .name, .main-nav, .main-nav li {
+    display: inline-block;
+  }
+
+  .name {
+    width: 240px;
+    margin-right: 50px
+  }
+
+  .main-nav li {
+    margin-right: 12px;
+  }
+
+  .col {
+    display: inline-block;
+    width: 50%;
+    margin-right: -4px;
+    vertical-align: top;
+    padding-left: 1em;
+    padding-right: 1em;
+  }
+
+}
