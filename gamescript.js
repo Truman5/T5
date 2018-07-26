@@ -1,7 +1,4 @@
-<!DOCTYPE HTML>
-<html>
-<body>
-<SCRIPT LANGUAGE= "javascript">
+
 setTimeout("document.bgColor = 'white'", 1000)
 setTimeout("document.bgColor = 'lightpink'", 1500)
 setTimeout("document.bgColor = 'pink'", 2000)
@@ -13,6 +10,4 @@ setTimeout("document.bgColor = 'cornsilk'", 4500)
 setTimeout("document.bgColor = 'yellow'", 5000)
 setTimeout("document.bgColor = 'rosybrown'", 5500)
 setTimeout("document.bgColor = 'sandybrown'", 6000)
-</SCRIPT>
-</body>
-</html>
+
